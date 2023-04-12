@@ -1,0 +1,74 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+}
+
+.gamename {
+  align-self: center;
+  justify-self: flex-start;
+  text-decoration: line-through;
+}
+
+.gamebox {
+  align-self: center;
+  text-align: center;
+  border: solid white;
+  width: 700px;
+  height: 700px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.hintbox {
+  align-self: center;
+  text-align: center;
+  border: solid white;
+  width: 700px;
+  height: 200px;
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.try1,
+.try2,
+.try3,
+.try4,
+.try5 {
+  display: flex;
+  align-self: center;
+  background-color: black;
+}
+
+.input1,
+.input2,
+.input3,
+.input4,
+.input5 {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+  background-color: black;
+  color: white;
+  border: solid 1px white;
+  font-size: 50px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
