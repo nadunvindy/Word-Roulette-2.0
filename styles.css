@@ -1,0 +1,59 @@
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+
+.gamename {
+  align-self: center;
+  justify-self: flex-start;
+  text-decoration: line-through;
+}
+
+.title {
+  align-self: center;
+  font-size: 50px;
+}
+
+#gamepage {
+  align-self: center;
+  justify-self: center;
+  color: white;
+}
+
+#gamepage:hover {
+  color: pink;
+}
+
+.titleinfo {
+  align-self: center;
+  text-align: center;
+  border: solid white;
+  width: 500px;
+  height: 320px;
+  margin-top: 200px;
+}
+
+.titleinfo:hover {
+  color: pink;
+  border-color: pink;
+}
+
+.gameresult {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.result {
+  align-self: center;
+  justify-self: center;
+}
